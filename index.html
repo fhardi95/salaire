@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Calculateur Salaire Brut en Net 2024 | calculateursalaire.fr</title>
+<meta name="description" content="Calculez votre salaire net à partir du brut en France 2024. Simulation gratuite et rapide : cotisations sociales, CSG, CRDS, impôt sur le revenu, prime d'activité. Cadre, non-cadre, fonctionnaire."/>
+<meta name="keywords" content="calculateur salaire brut net, simulation salaire 2024, cotisations sociales France, prime activité, SMIC, fonctionnaire, cadre non-cadre, calculateursalaire.fr"/>
+<meta name="robots" content="index, follow"/>
+<meta name="author" content="calculateursalaire.fr"/>
+<link rel="canonical" href="https://www.calculateursalaire.fr/"/>
+<meta property="og:title" content="Calculateur Salaire Brut → Net 2024 | calculateursalaire.fr"/>
+<meta property="og:description" content="Simulation complète et gratuite : cotisations, impôt sur le revenu, prime d'activité CAF. Barèmes 2024 officiels."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://www.calculateursalaire.fr/"/>
+<meta property="og:locale" content="fr_FR"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Calculateur Salaire Brut Net 2024 | calculateursalaire.fr"/>
+<meta name="twitter:description" content="Simulez votre salaire net gratuitement. Barèmes 2024 à jour."/>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebApplication",
+  "name":"Calculateur Salaire Brut en Net",
+  "url":"https://www.calculateursalaire.fr/",
+  "description":"Outil gratuit pour calculer le salaire net à partir du brut en France. Cotisations sociales, impôt sur le revenu, prime d'activité. Barèmes 2024.",
+  "applicationCategory":"FinanceApplication",
+  "operatingSystem":"Web",
+  "offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},
+  "inLanguage":"fr",
+  "featureList":["Calcul brut en net","Cotisations salariales 2024","Cotisations patronales","Prime d'activité CAF","SMIC horaire","Fonctionnaire","Prélèvement à la source"],
+  "publisher":{"@type":"Organization","name":"calculateursalaire.fr","url":"https://www.calculateursalaire.fr/"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.calculateursalaire.fr/"},{"@type":"ListItem","position":2,"name":"Calculateur brut net","item":"https://www.calculateursalaire.fr/"}]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"Comment calculer son salaire net à partir du brut ?","acceptedAnswer":{"@type":"Answer","text":"Pour passer du brut au net, on déduit les cotisations salariales (environ 22-25% du brut) : assurance maladie, retraite de base, retraite complémentaire, CSG (9,7%) et CRDS (0,5%). Puis on déduit le prélèvement à la source pour l'impôt sur le revenu."}},
+    {"@type":"Question","name":"Quel est le SMIC net en 2024 ?","acceptedAnswer":{"@type":"Answer","text":"Le SMIC brut mensuel 2024 est de 1 766,92 €. Après cotisations salariales, le SMIC net est d'environ 1 398 € par mois, avant prélèvement à la source."}},
+    {"@type":"Question","name":"Quelle est la différence entre cadre et non-cadre ?","acceptedAnswer":{"@type":"Answer","text":"Un cadre cotise à l'AGIRC pour la retraite complémentaire et à l'APEC (0,024%). Le taux global de cotisations est environ 0,5 point plus élevé que pour un non-cadre."}},
+    {"@type":"Question","name":"Comment calculer la prime d'activité ?","acceptedAnswer":{"@type":"Answer","text":"La prime d'activité est versée par la CAF sous conditions de ressources. Elle est calculée selon vos revenus d'activité, la composition de votre foyer et le montant forfaitaire de base (635,71 € en 2024). Utilisez le simulateur sur caf.fr pour un calcul officiel."}},
+    {"@type":"Question","name":"Quel est le coût employeur pour un salaire brut ?","acceptedAnswer":{"@type":"Answer","text":"Le coût employeur est égal au salaire brut plus les cotisations patronales (environ 42-45% du brut). Pour un salaire brut de 3 000 €, le coût total employeur est d'environ 4 200-4 300 €."}},
+    {"@type":"Question","name":"Comment fonctionne le prélèvement à la source en 2024 ?","acceptedAnswer":{"@type":"Answer","text":"Le prélèvement à la source (PAS) est prélevé directement sur votre salaire chaque mois selon les tranches du barème IR 2024 et votre nombre de parts fiscales, avec un abattement de 10% pour frais professionnels."}}
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;0,900;1,700&family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  --red:#c0392b;
+  --red-dark:#96281b;
+  --red-light:#e74c3c;
+  --red-bg:#fff5f5;
+  --red-border:#fddcdc;
+  --white:#ffffff;
+  --off-white:#fafaf9;
+  --gray-50:#f8f8f7;
+  --gray-100:#f0efed;
+  --gray-200:#e5e3df;
+  --gray-300:#d0cdc8;
+  --gray-400:#a8a49e;
+  --gray-500:#706c66;
+  --gray-700:#3d3a35;
+  --gray-900:#1a1816;
+  --green:#1e7e4e;
+  --green-bg:#edf7f1;
+  --blue:#1a5f9e;
+  --radius:8px;
+  --radius-sm:5px;
+  --shadow-sm:0 1px 4px rgba(0,0,0,0.06);
+  --shadow:0 2px 16px rgba(0,0,0,0.08);
+  --shadow-lg:0 8px 40px rgba(0,0,0,0.12);
+}
+
+html{scroll-behavior:smooth}
+body{
+  font-family:'Mulish',sans-serif;
+  background:var(--off-white);
+  color:var(--gray-900);
+  min-height:100vh;
+  font-size:15px;
+  line-height:1.6;
+}
+
+/* ===== HEADER ===== */
+header{
+  background:var(--white);
+  border-bottom:2px solid var(--red);
+  padding:0 clamp(16px,4vw,60px);
+  height:62px;
+  display:flex;align-items:center;justify-content:space-between;
+  position:sticky;top:0;z-index:100;
+  box-shadow:var(--shadow-sm);
+}
+.logo{
+  font-family:'Fraunces',serif;
+  font-weight:900;font-size:20px;
+  letter-spacing:-0.5px;
+  color:var(--gray-900);
+}
+.logo span{color:var(--red)}
+.header-right{display:flex;align-items:center;gap:12px}
+.badge{
+  background:var(--red);
+  color:#fff;
+  font-size:10px;font-weight:700;
+  letter-spacing:1px;text-transform:uppercase;
+  padding:4px 10px;border-radius:20px;
+}
+.nav-links{display:flex;gap:20px}
+.nav-links a{
+  font-size:13px;font-weight:600;
+  color:var(--gray-500);text-decoration:none;
+  transition:color 0.15s;
+}
+.nav-links a:hover{color:var(--red)}
+@media(max-width:600px){.nav-links{display:none}}
+
+/* ===== HERO ===== */
+.hero{
+  background:linear-gradient(135deg,var(--red) 0%,var(--red-dark) 100%);
+  color:#fff;
+  padding:clamp(40px,6vw,80px) clamp(16px,4vw,60px) clamp(50px,7vw,90px);
+  position:relative;
+  overflow:hidden;
+}
+.hero::before{
+  content:'';
+  position:absolute;top:0;right:0;
+  width:500px;height:100%;
+  background:url("data:image/svg+xml,%3Csvg width='500' height='300' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='400' cy='60' r='200' fill='rgba(255,255,255,0.04)'/%3E%3Ccircle cx='460' cy='250' r='120' fill='rgba(255,255,255,0.03)'/%3E%3C/svg%3E") no-repeat;
+  pointer-events:none;
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:11px;letter-spacing:2px;text-transform:uppercase;
+  font-weight:700;color:rgba(255,255,255,0.7);
+  margin-bottom:16px;
+}
+.hero h1{
+  font-family:'Fraunces',serif;
+  font-size:clamp(34px,5.5vw,64px);
+  font-weight:900;line-height:1.05;
+  letter-spacing:-1.5px;
+  margin-bottom:16px;
+  max-width:700px;
+}
+.hero h1 em{font-style:italic;color:rgba(255,255,255,0.85)}
+.hero-sub{
+  font-size:15px;color:rgba(255,255,255,0.75);
+  max-width:520px;line-height:1.7;margin-bottom:30px;
+}
+.hero-chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{
+  background:rgba(255,255,255,0.15);
+  border:1px solid rgba(255,255,255,0.25);
+  color:#fff;
+  font-size:12px;font-weight:600;
+  padding:5px 14px;border-radius:20px;
+  backdrop-filter:blur(4px);
+}
+.hero-stats-bar{
+  margin-top:32px;
+  display:flex;flex-wrap:wrap;gap:0;
+  background:rgba(0,0,0,0.15);
+  border-radius:var(--radius);
+  overflow:hidden;
+}
+.hstat{
+  flex:1;min-width:120px;
+  padding:16px 20px;
+  border-right:1px solid rgba(255,255,255,0.1);
+}
+.hstat:last-child{border-right:none}
+.hstat-val{
+  font-family:'Fraunces',serif;
+  font-size:22px;font-weight:700;
+  color:#fff;line-height:1;margin-bottom:4px;
+}
+.hstat-lbl{font-size:11px;color:rgba(255,255,255,0.55);font-weight:600;letter-spacing:0.3px}
+
+/* ===== MAIN LAYOUT ===== */
+.page{
+  max-width:1220px;margin:0 auto;
+  padding:clamp(20px,3vw,48px) clamp(16px,4vw,60px) 60px;
+  display:grid;
+  grid-template-columns:1fr 400px;
+  gap:28px;align-items:start;
+}
+@media(max-width:960px){.page{grid-template-columns:1fr}}
+
+/* ===== CARD ===== */
+.card{
+  background:var(--white);
+  border:1px solid var(--gray-200);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow-sm);
+}
+.card-body{padding:26px 28px}
+.card+.card{margin-top:20px}
+.card-hd{
+  font-family:'Fraunces',serif;
+  font-size:15px;font-weight:700;
+  color:var(--gray-900);
+  display:flex;align-items:center;gap:10px;
+  margin-bottom:22px;
+  padding-bottom:16px;
+  border-bottom:1px solid var(--gray-100);
+}
+.card-hd-icon{
+  width:30px;height:30px;
+  background:var(--red-bg);
+  border-radius:6px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:15px;
+  flex-shrink:0;
+}
+
+/* ===== FORM TABS ===== */
+.ftabs{
+  display:flex;gap:0;
+  border:1px solid var(--gray-200);
+  border-radius:var(--radius-sm);
+  overflow:hidden;
+  margin-bottom:24px;
+}
+.ftab{
+  flex:1;padding:10px 8px;
+  font-family:'Mulish',sans-serif;
+  font-size:12px;font-weight:700;
+  letter-spacing:0.3px;text-transform:uppercase;
+  color:var(--gray-400);
+  background:var(--white);
+  border:none;border-right:1px solid var(--gray-200);
+  cursor:pointer;transition:all 0.2s;
+}
+.ftab:last-child{border-right:none}
+.ftab.active{
+  background:var(--red);
+  color:#fff;
+}
+.ftab:not(.active):hover{background:var(--gray-50);color:var(--gray-700)}
+
+/* ===== FORM GRID ===== */
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px 20px}
+@media(max-width:580px){.fgrid{grid-template-columns:1fr}}
+.fg-full{grid-column:1/-1}
+.field{display:flex;flex-direction:column;gap:5px}
+.field label{
+  font-size:11px;font-weight:700;
+  letter-spacing:0.5px;text-transform:uppercase;
+  color:var(--gray-400);
+}
+
+/* ===== INPUTS ===== */
+.inp-wrap{position:relative}
+.inp-wrap .sfx{
+  position:absolute;right:12px;top:50%;
+  transform:translateY(-50%);
+  font-size:13px;font-weight:700;
+  color:var(--gray-300);pointer-events:none;
+}
+input[type=number],select{
+  width:100%;
+  padding:10px 36px 10px 13px;
+  background:var(--gray-50);
+  border:1.5px solid var(--gray-200);
+  border-radius:var(--radius-sm);
+  font-family:'Mulish',sans-serif;
+  font-size:15px;color:var(--gray-900);
+  outline:none;
+  appearance:none;-webkit-appearance:none;
+  transition:border-color 0.2s,background 0.2s;
+}
+input[type=number]:focus,select:focus{
+  border-color:var(--red);
+  background:var(--white);
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none}
+
+/* ===== PILLS ===== */
+.pills{
+  display:flex;
+  border:1.5px solid var(--gray-200);
+  border-radius:var(--radius-sm);
+  overflow:hidden;background:var(--gray-50);
+}
+.pills input[type=radio]{display:none}
+.pills label{
+  flex:1;padding:9px 6px;text-align:center;
+  font-size:12px;font-weight:700;
+  letter-spacing:0.3px;text-transform:uppercase;
+  color:var(--gray-400);cursor:pointer;
+  transition:all 0.15s;
+}
+.pills input:checked+label{
+  background:var(--red);color:#fff;
+}
+
+/* RANGE */
+input[type=range]{
+  -webkit-appearance:none;
+  width:100%;height:4px;
+  background:var(--gray-200);border-radius:2px;outline:none;margin-top:6px;
+}
+input[type=range]::-webkit-slider-thumb{
+  -webkit-appearance:none;width:18px;height:18px;
+  border-radius:50%;background:var(--red);cursor:pointer;
+  box-shadow:0 0 0 3px rgba(192,57,43,0.15);
+}
+.range-info{display:flex;justify-content:space-between;font-size:11px;color:var(--gray-400);margin-top:3px}
+
+/* ===== BTN ===== */
+.btn-calc{
+  width:100%;padding:15px;
+  background:var(--red);color:#fff;
+  border:none;border-radius:var(--radius-sm);
+  font-family:'Fraunces',serif;
+  font-size:16px;font-weight:700;
+  letter-spacing:-0.3px;
+  cursor:pointer;
+  transition:all 0.2s;
+  margin-top:4px;
+  box-shadow:0 4px 16px rgba(192,57,43,0.3);
+}
+.btn-calc:hover{background:var(--red-dark);box-shadow:0 6px 24px rgba(192,57,43,0.35);transform:translateY(-1px)}
+.btn-calc:active{transform:translateY(0);box-shadow:0 2px 8px rgba(192,57,43,0.25)}
+
+/* ===== RESULTS STICKY ===== */
+.res-sticky{position:sticky;top:78px}
+
+/* NET CARD */
+.net-card{
+  background:var(--red);
+  border-radius:var(--radius);
+  padding:28px;
+  color:#fff;
+  margin-bottom:16px;
+  position:relative;overflow:hidden;
+  box-shadow:0 4px 24px rgba(192,57,43,0.25);
+}
+.net-card::after{
+  content:'';position:absolute;
+  bottom:-50px;right:-50px;
+  width:180px;height:180px;border-radius:50%;
+  background:rgba(255,255,255,0.06);pointer-events:none;
+}
+.net-card::before{
+  content:'';position:absolute;
+  top:-30px;left:-30px;
+  width:120px;height:120px;border-radius:50%;
+  background:rgba(255,255,255,0.04);pointer-events:none;
+}
+.net-tag{
+  font-size:10px;letter-spacing:2px;text-transform:uppercase;
+  font-weight:700;color:rgba(255,255,255,0.65);margin-bottom:10px;
+}
+.net-amount{
+  font-family:'Fraunces',serif;
+  font-size:clamp(44px,7vw,58px);
+  font-weight:900;line-height:1;
+  letter-spacing:-2px;
+}
+.net-amount .eur{font-size:0.38em;vertical-align:super;margin-right:3px;opacity:0.8}
+.net-period{font-size:12px;color:rgba(255,255,255,0.55);margin-top:6px}
+.net-annual{
+  display:inline-block;margin-top:10px;
+  font-size:13px;
+  background:rgba(255,255,255,0.15);
+  padding:4px 14px;border-radius:20px;font-weight:600;
+}
+
+/* QUICK STATS */
+.qstats{
+  display:grid;grid-template-columns:1fr 1fr 1fr;
+  gap:10px;margin-bottom:16px;
+}
+.qs{
+  background:var(--white);
+  border:1px solid var(--gray-200);
+  border-radius:var(--radius-sm);
+  padding:12px;text-align:center;
+  box-shadow:var(--shadow-sm);
+}
+.qs-v{
+  font-family:'Fraunces',serif;
+  font-size:18px;font-weight:700;line-height:1;
+}
+.qs-l{font-size:10px;text-transform:uppercase;letter-spacing:0.5px;color:var(--gray-400);margin-top:4px}
+.c-red{color:var(--red)}
+.c-blue{color:var(--blue)}
+.c-green{color:var(--green)}
+
+/* RES TABS */
+.rtabs{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap}
+.rtab{
+  padding:7px 14px;
+  font-size:12px;font-weight:700;
+  border-radius:20px;
+  cursor:pointer;
+  border:1.5px solid var(--gray-200);
+  background:var(--white);
+  color:var(--gray-400);
+  transition:all 0.15s;
+}
+.rtab.active{
+  background:var(--red-bg);
+  border-color:var(--red-border);
+  color:var(--red);
+}
+.rtab:not(.active):hover{border-color:var(--gray-300);color:var(--gray-700)}
+
+/* BREAKDOWN */
+.brkd{display:flex;flex-direction:column}
+.brow{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:9px 0;
+  border-bottom:1px solid var(--gray-100);
+  font-size:13.5px;
+}
+.brow:last-child{border-bottom:none}
+.brow.sec{
+  font-size:10px;text-transform:uppercase;letter-spacing:1px;
+  color:var(--gray-400);font-weight:700;padding-bottom:2px;
+  border-bottom:none;margin-top:8px;padding-top:4px;
+}
+.brow.sub{
+  font-weight:700;
+  background:var(--gray-50);
+  margin:4px -4px;padding:8px 4px;
+  border-radius:4px;border-bottom:none;font-size:13px;
+}
+.brow.fin{
+  font-family:'Fraunces',serif;font-weight:700;font-size:16px;
+  padding-top:14px;
+  border-top:2px solid var(--red);
+  border-bottom:none;color:var(--red);
+}
+.vneg{color:var(--red);font-weight:600}
+.vpos{color:var(--green);font-weight:600}
+.vneu{color:var(--gray-900);font-weight:600}
+
+/* DONUT */
+.donut-wrap{display:flex;align-items:center;gap:20px;margin-bottom:20px}
+.dleg{display:flex;flex-direction:column;gap:10px;flex:1}
+.dleg-item{display:flex;align-items:center;gap:10px}
+.dleg-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.dleg-lbl{font-size:12px;color:var(--gray-500);line-height:1}
+.dleg-val{font-size:14px;font-weight:700;color:var(--gray-900)}
+.dleg-pct{font-size:11px;color:var(--gray-400)}
+
+/* PROGRESS */
+.prog-item{margin-bottom:12px}
+.prog-head{display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px;font-weight:600;color:var(--gray-700)}
+.prog-track{height:6px;background:var(--gray-100);border-radius:3px;overflow:hidden}
+.prog-fill{height:100%;border-radius:3px;transition:width 0.7s cubic-bezier(.23,1,.32,1)}
+.pf-net{background:var(--green)}
+.pf-cotis{background:var(--red)}
+.pf-ir{background:var(--blue)}
+.pf-mut{background:var(--gray-400)}
+
+/* PRIME */
+.prime-box{
+  background:var(--green-bg);
+  border:1px solid #b7dfca;
+  border-radius:var(--radius-sm);
+  padding:18px;margin-top:4px;
+}
+.prime-head{
+  display:flex;align-items:center;gap:8px;
+  font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;
+  color:var(--green);margin-bottom:10px;
+}
+.prime-val{
+  font-family:'Fraunces',serif;
+  font-size:30px;font-weight:700;color:var(--green);
+}
+.prime-sub{font-size:12px;color:var(--gray-500);margin-top:6px;line-height:1.5}
+
+/* SMIC BAR */
+.smic-box{
+  background:var(--gray-50);border:1px solid var(--gray-200);
+  border-radius:var(--radius-sm);padding:14px 16px;margin-top:16px;
+}
+.smic-hd{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--gray-400);font-weight:700;margin-bottom:8px}
+.smic-bar-wrap{position:relative;height:8px;background:var(--gray-200);border-radius:4px;margin:8px 0}
+.smic-bar-fill{height:100%;border-radius:4px;background:var(--red);transition:width 0.8s cubic-bezier(.23,1,.32,1)}
+.smic-bar-mark{position:absolute;top:-4px;width:2px;height:16px;background:var(--gray-400);border-radius:1px}
+.smic-lbls{display:flex;justify-content:space-between;font-size:11px;color:var(--gray-400)}
+
+/* EMPLOYER BOX */
+.emp-total{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:14px 16px;
+  background:var(--red-bg);border:1px solid var(--red-border);
+  border-radius:var(--radius-sm);margin-top:14px;
+}
+.emp-lbl{font-size:11px;text-transform:uppercase;letter-spacing:0.8px;color:var(--red);font-weight:700}
+.emp-val{font-family:'Fraunces',serif;font-size:22px;font-weight:700;color:var(--red)}
+
+/* PLACEHOLDER */
+.placeholder{
+  display:flex;flex-direction:column;align-items:center;
+  justify-content:center;gap:10px;padding:44px 20px;text-align:center;
+  color:var(--gray-400);
+}
+.placeholder-icon{font-size:40px;opacity:0.35}
+.placeholder p{font-size:13px;max-width:210px;line-height:1.5}
+
+/* NOTE OFFICIELLE */
+.note-officielle{
+  background:#fff8e1;border:1px solid #ffe082;
+  border-radius:var(--radius-sm);
+  padding:12px 16px;
+  font-size:12px;color:#7d6608;
+  line-height:1.6;margin-top:16px;
+}
+.note-officielle strong{color:#5d4e0a}
+.note-officielle a{color:var(--red);font-weight:700}
+
+/* ===== FAQ ===== */
+.faq-section{
+  max-width:1220px;margin:0 auto;
+  padding:0 clamp(16px,4vw,60px) 60px;
+}
+.section-title{
+  font-family:'Fraunces',serif;
+  font-size:clamp(24px,3vw,36px);font-weight:900;
+  letter-spacing:-1px;margin-bottom:28px;
+  color:var(--gray-900);
+}
+.section-title span{color:var(--red)}
+.faq-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media(max-width:800px){.faq-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:500px){.faq-grid{grid-template-columns:1fr}}
+.faq-card{
+  background:var(--white);
+  border:1px solid var(--gray-200);
+  border-radius:var(--radius);
+  padding:20px;
+  box-shadow:var(--shadow-sm);
+  transition:border-color 0.2s,box-shadow 0.2s,transform 0.2s;
+}
+.faq-card:hover{border-color:var(--red-border);box-shadow:var(--shadow);transform:translateY(-2px)}
+.faq-card h3{
+  font-family:'Fraunces',serif;
+  font-size:14px;font-weight:700;
+  margin-bottom:8px;color:var(--gray-900);
+}
+.faq-card p{font-size:12.5px;color:var(--gray-500);line-height:1.6}
+
+/* TABLE */
+.table-section{
+  max-width:1220px;margin:0 auto;
+  padding:0 clamp(16px,4vw,60px) 70px;
+}
+.rtable{
+  width:100%;border-collapse:collapse;font-size:13px;
+  background:var(--white);
+  border:1px solid var(--gray-200);
+  border-radius:var(--radius);overflow:hidden;
+  box-shadow:var(--shadow-sm);
+}
+.rtable thead tr{background:var(--red)}
+.rtable th{
+  font-size:10px;text-transform:uppercase;letter-spacing:0.8px;
+  color:#fff;font-weight:700;padding:12px 16px;text-align:left;
+}
+.rtable td{
+  padding:10px 16px;border-bottom:1px solid var(--gray-100);
+  color:var(--gray-500);
+}
+.rtable tr:last-child td{border-bottom:none}
+.rtable tbody tr:hover td{background:var(--gray-50);color:var(--gray-900)}
+.rtable .special td{color:var(--red);font-weight:600}
+
+/* FOOTER */
+footer{
+  background:var(--gray-900);color:var(--gray-400);
+  text-align:center;padding:32px 20px;
+  font-size:12px;line-height:2;
+}
+footer strong{color:var(--white)}
+footer a{color:var(--red);text-decoration:none;font-weight:600}
+
+/* ANIM */
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes popIn{from{opacity:0;transform:scale(0.94)}to{opacity:1;transform:scale(1)}}
+.anim-in{animation:fadeUp 0.35s ease both}
+.anim-pop{animation:popIn 0.3s cubic-bezier(.23,1,.32,1) both}
+
+/* SECTION PANEL */
+.spanel{display:none}.spanel.active{display:block}
+
+/* TOOLTIP */
+.tip{position:relative;display:inline-block;cursor:help}
+.tip-icon{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:14px;height:14px;border-radius:50%;
+  background:var(--gray-200);color:var(--gray-400);
+  font-size:9px;font-weight:700;margin-left:4px;vertical-align:middle;
+}
+.tip-text{
+  display:none;position:absolute;bottom:calc(100% + 6px);left:50%;
+  transform:translateX(-50%);
+  background:var(--gray-900);border-radius:6px;
+  padding:7px 12px;font-size:11px;color:#fff;
+  white-space:nowrap;z-index:200;
+  box-shadow:var(--shadow-lg);
+}
+.tip:hover .tip-text{display:block}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">calculateur<span>salaire</span>.fr</div>
+  <div class="header-right">
+    <nav class="nav-links">
+      <a href="#calculateur">Calculateur</a>
+      <a href="#faq">FAQ</a>
+      <a href="#taux">Taux 2024</a>
+    </nav>
+    <span class="badge">2024</span>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="calculateur">
+  <div class="hero-eyebrow">Simulation gratuite · Barèmes officiels 2024</div>
+  <h1>Calculateur<br><em>Brut → Net</em><br>en France</h1>
+  <p class="hero-sub">Cotisations sociales, impôt sur le revenu, prime d'activité CAF et coût employeur. Simple, rapide, précis.</p>
+  <div class="hero-chips">
+    <span class="chip">✓ Salarié privé</span>
+    <span class="chip">✓ Fonctionnaire</span>
+    <span class="chip">✓ SMIC horaire</span>
+    <span class="chip">✓ Prime d'activité</span>
+    <span class="chip">✓ Cadre & Non-cadre</span>
+  </div>
+  <div class="hero-stats-bar">
+    <div class="hstat"><div class="hstat-val">1 766,92 €</div><div class="hstat-lbl">SMIC brut 2024</div></div>
+    <div class="hstat"><div class="hstat-val">~1 398 €</div><div class="hstat-lbl">SMIC net estimé</div></div>
+    <div class="hstat"><div class="hstat-val">3 864 €</div><div class="hstat-lbl">Plafond SS mensuel</div></div>
+    <div class="hstat"><div class="hstat-val">~22–25%</div><div class="hstat-lbl">Cotisations salariales</div></div>
+  </div>
+</section>
+
+<!-- MAIN -->
+<div class="page">
+
+  <!-- FORM -->
+  <div>
+    <div class="card" id="form-card">
+      <div class="card-body">
+        <div class="card-hd">
+          <div class="card-hd-icon">⚙️</div>
+          Paramètres de votre simulation
+        </div>
+
+        <!-- TABS -->
+        <div class="ftabs">
+          <button class="ftab active" onclick="switchForm('salarie',this)">Salarié privé</button>
+          <button class="ftab" onclick="switchForm('fonctionnaire',this)">Fonctionnaire</button>
+          <button class="ftab" onclick="switchForm('smic',this)">SMIC horaire</button>
+        </div>
+
+        <!-- ====== SALARIÉ ====== -->
+        <div id="fp_salarie" class="spanel active">
+          <div class="fgrid">
+
+            <div class="field">
+              <label>Salaire brut <span class="tip"><span class="tip-icon">?</span><span class="tip-text">Montant avant toute déduction</span></span></label>
+              <div class="inp-wrap"><input type="number" id="brut" value="3000" min="0" step="100"/><span class="sfx">€</span></div>
+            </div>
+
+            <div class="field">
+              <label>Période</label>
+              <div class="pills">
+                <input type="radio" name="per" id="per_m" value="mensuel" checked/><label for="per_m">Mensuel</label>
+                <input type="radio" name="per" id="per_a" value="annuel"/><label for="per_a">Annuel</label>
+              </div>
+            </div>
+
+            <div class="field">
+              <label>Statut</label>
+              <div class="pills">
+                <input type="radio" name="stat" id="stat_nc" value="non_cadre" checked/><label for="stat_nc">Non-cadre</label>
+                <input type="radio" name="stat" id="stat_c" value="cadre"/><label for="stat_c">Cadre</label>
+              </div>
+            </div>
+
+            <div class="field">
+              <label>Temps de travail</label>
+              <div class="pills">
+                <input type="radio" name="tps" id="tps_p" value="plein" checked/><label for="tps_p">Plein</label>
+                <input type="radio" name="tps" id="tps_pt" value="partiel"/><label for="tps_pt">Partiel</label>
+              </div>
+            </div>
+
+            <div class="field" id="partiel_grp" style="display:none">
+              <label>Taux : <strong id="partiel_val">80%</strong></label>
+              <input type="range" id="taux_pt" min="10" max="99" value="80"
+                oninput="document.getElementById('partiel_val').textContent=this.value+'%'"/>
+              <div class="range-info"><span>10%</span><span>99%</span></div>
+            </div>
+
+            <div class="field">
+              <label>Parts fiscales <span class="tip"><span class="tip-icon">?</span><span class="tip-text">Détermine votre taux d'imposition</span></span></label>
+              <select id="parts">
+                <option value="1">1 part — célibataire</option>
+                <option value="1.5">1,5 parts</option>
+                <option value="2" selected>2 parts — couple / 1 enfant</option>
+                <option value="2.5">2,5 parts</option>
+                <option value="3">3 parts — 2 enfants</option>
+                <option value="3.5">3,5 parts</option>
+                <option value="4">4 parts — 3 enfants</option>
+                <option value="4.5">4,5 parts</option>
+                <option value="5">5 parts — 4 enfants</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label>Prime mensuelle</label>
+              <div class="inp-wrap"><input type="number" id="prime" value="0" min="0" step="50"/><span class="sfx">€</span></div>
+            </div>
+
+            <div class="field">
+              <label>Mutuelle (part salarié)</label>
+              <div class="inp-wrap"><input type="number" id="mutuelle" value="0" min="0" step="5"/><span class="sfx">€</span></div>
+            </div>
+
+            <div class="field">
+              <label>Avantages en nature</label>
+              <div class="inp-wrap"><input type="number" id="avantage" value="0" min="0" step="10"/><span class="sfx">€</span></div>
+            </div>
+
+            <div class="field">
+              <label>Foyer (prime activité)</label>
+              <select id="foyer">
+                <option value="1">1 personne seule</option>
+                <option value="2" selected>2 adultes</option>
+                <option value="3">2 adultes + 1 enfant</option>
+                <option value="4">2 adultes + 2 enfants</option>
+                <option value="5">2 adultes + 3 enfants</option>
+              </select>
+            </div>
+
+            <div class="field fg-full">
+              <button class="btn-calc" onclick="calcSalarie()">Calculer mon salaire net →</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ====== FONCTIONNAIRE ====== -->
+        <div id="fp_fonctionnaire" class="spanel">
+          <div class="fgrid">
+            <div class="field">
+              <label>Traitement brut indiciaire</label>
+              <div class="inp-wrap"><input type="number" id="brut_f" value="2500" min="0" step="100"/><span class="sfx">€</span></div>
+            </div>
+            <div class="field">
+              <label>Période</label>
+              <div class="pills">
+                <input type="radio" name="per_f" id="pf_m" value="mensuel" checked/><label for="pf_m">Mensuel</label>
+                <input type="radio" name="per_f" id="pf_a" value="annuel"/><label for="pf_a">Annuel</label>
+              </div>
+            </div>
+            <div class="field">
+              <label>Corps de la FP</label>
+              <select id="corps_f">
+                <option value="etat">Fonction publique d'État</option>
+                <option value="territ">Territoriale</option>
+                <option value="hospit">Hospitalière</option>
+              </select>
+            </div>
+            <div class="field">
+              <label>Parts fiscales</label>
+              <select id="parts_f">
+                <option value="1">1 part</option><option value="1.5">1,5 parts</option>
+                <option value="2" selected>2 parts</option><option value="2.5">2,5 parts</option><option value="3">3 parts</option>
+              </select>
+            </div>
+            <div class="field">
+              <label>NBI mensuel</label>
+              <div class="inp-wrap"><input type="number" id="nbi_f" value="0" min="0" step="10"/><span class="sfx">€</span></div>
+            </div>
+            <div class="field">
+              <label>Régime indemnitaire</label>
+              <div class="inp-wrap"><input type="number" id="indem_f" value="0" min="0" step="50"/><span class="sfx">€</span></div>
+            </div>
+            <div class="field fg-full">
+              <button class="btn-calc" onclick="calcFonctionnaire()">Calculer mon salaire net →</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ====== SMIC ====== -->
+        <div id="fp_smic" class="spanel">
+          <div class="fgrid">
+            <div class="field">
+              <label>Heures / mois</label>
+              <div class="inp-wrap"><input type="number" id="heures" value="151.67" min="1" max="300" step="0.5"/><span class="sfx">h</span></div>
+            </div>
+            <div class="field">
+              <label>Taux horaire brut</label>
+              <div class="inp-wrap"><input type="number" id="taux_h" value="11.65" min="0" step="0.01"/><span class="sfx">€/h</span></div>
+            </div>
+            <div class="field">
+              <label>Heures supplémentaires</label>
+              <div class="inp-wrap"><input type="number" id="h_sup" value="0" min="0" step="1"/><span class="sfx">h</span></div>
+            </div>
+            <div class="field">
+              <label>Majoration h. sup.</label>
+              <div class="pills">
+                <input type="radio" name="maj" id="maj25" value="1.25" checked/><label for="maj25">+25%</label>
+                <input type="radio" name="maj" id="maj50" value="1.50"/><label for="maj50">+50%</label>
+              </div>
+            </div>
+            <div class="field">
+              <label>Parts fiscales</label>
+              <select id="parts_s">
+                <option value="1" selected>1 part</option><option value="1.5">1,5 parts</option>
+                <option value="2">2 parts</option><option value="2.5">2,5 parts</option>
+              </select>
+            </div>
+            <div class="field">
+              <label>Statut</label>
+              <div class="pills">
+                <input type="radio" name="stat_s" id="ss_nc" value="non_cadre" checked/><label for="ss_nc">Non-cadre</label>
+                <input type="radio" name="stat_s" id="ss_c" value="cadre"/><label for="ss_c">Cadre</label>
+              </div>
+            </div>
+            <div class="field fg-full">
+              <button class="btn-calc" onclick="calcSMIC()">Calculer mon salaire net →</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- NOTE OFFICIELLE -->
+    <div class="card" style="margin-top:16px">
+      <div class="card-body" style="padding:16px 20px">
+        <div class="note-officielle">
+          ⚠️ <strong>Simulation estimative.</strong> Pour un calcul officiel, utilisez
+          <a href="https://mon-entreprise.urssaf.fr" target="_blank" rel="noopener">mon-entreprise.urssaf.fr</a> (URSSAF),
+          <a href="https://www.impots.gouv.fr" target="_blank" rel="noopener">impots.gouv.fr</a> pour l'IR, ou
+          <a href="https://www.caf.fr" target="_blank" rel="noopener">caf.fr</a> pour la prime d'activité.
+          Les taux AT/MP varient selon le secteur et la réduction Fillon n'est pas intégrée.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== RESULTS ====== -->
+  <div class="res-sticky">
+
+    <div id="res_placeholder" class="card">
+      <div class="card-body">
+        <div class="placeholder">
+          <div class="placeholder-icon">💶</div>
+          <p>Renseignez vos paramètres et cliquez sur <strong>Calculer</strong>.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="res_main" style="display:none">
+
+      <div class="net-card anim-pop">
+        <div class="net-tag">▸ Salaire net à payer</div>
+        <div class="net-amount"><span class="eur">€</span><span id="r_net">—</span></div>
+        <div class="net-period" id="r_period">par mois</div>
+        <div class="net-annual" id="r_annual"></div>
+      </div>
+
+      <div class="qstats">
+        <div class="qs"><div class="qs-v c-red" id="r_c_pct">—</div><div class="qs-l">Cotisations</div></div>
+        <div class="qs"><div class="qs-v c-blue" id="r_ir_pct">—</div><div class="qs-l">Impôt PAS</div></div>
+        <div class="qs"><div class="qs-v c-green" id="r_tx_eff">—</div><div class="qs-l">Taux global</div></div>
+      </div>
+
+      <div class="rtabs">
+        <button class="rtab active" onclick="switchRes('detail',this)">Détail</button>
+        <button class="rtab" onclick="switchRes('visual',this)">Graphique</button>
+        <button class="rtab" onclick="switchRes('employeur',this)">Employeur</button>
+        <button class="rtab" onclick="switchRes('prime',this)">Prime activité</button>
+      </div>
+
+      <!-- DETAIL -->
+      <div id="rt_detail" class="card anim-in">
+        <div class="card-body">
+          <div class="card-hd"><div class="card-hd-icon">📋</div>Décomposition</div>
+          <div class="brkd" id="r_detail"></div>
+        </div>
+      </div>
+
+      <!-- VISUAL -->
+      <div id="rt_visual" class="card anim-in" style="display:none">
+        <div class="card-body">
+          <div class="card-hd"><div class="card-hd-icon">📊</div>Répartition visuelle</div>
+          <div class="donut-wrap">
+            <canvas id="donut" width="130" height="130" style="flex-shrink:0"></canvas>
+            <div class="dleg" id="dleg"></div>
+          </div>
+          <div id="r_progs"></div>
+        </div>
+      </div>
+
+      <!-- EMPLOYEUR -->
+      <div id="rt_employeur" class="card anim-in" style="display:none">
+        <div class="card-body">
+          <div class="card-hd"><div class="card-hd-icon">🏢</div>Coût employeur</div>
+          <div class="brkd" id="r_pat"></div>
+          <div class="emp-total">
+            <div><div class="emp-lbl">Coût total employeur</div><div style="font-size:11px;color:var(--gray-400);margin-top:2px">Brut + cotisations patronales</div></div>
+            <div class="emp-val" id="r_cout">—</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRIME -->
+      <div id="rt_prime" class="card anim-in" style="display:none">
+        <div class="card-body">
+          <div class="card-hd"><div class="card-hd-icon">🌿</div>Prime d'activité CAF</div>
+          <div id="r_prime"></div>
+          <div id="r_smic"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- FAQ -->
+<section class="faq-section" id="faq">
+  <h2 class="section-title">Questions <span>fréquentes</span></h2>
+  <div class="faq-grid">
+    <div class="faq-card"><h3>Comment passer du brut au net ?</h3><p>On déduit du brut les cotisations salariales (22–25%) : maladie, retraite de base, retraite complémentaire, CSG (9,7%) et CRDS (0,5%). Puis le prélèvement à la source (impôt).</p></div>
+    <div class="faq-card"><h3>Quel est le SMIC net en 2024 ?</h3><p>SMIC brut = 1 766,92 €/mois. Après cotisations salariales, le net est d'environ 1 398 €/mois hors impôt sur le revenu. Le taux horaire SMIC est de 11,65 €.</p></div>
+    <div class="faq-card"><h3>Cadre vs non-cadre ?</h3><p>Un cadre cotise à l'AGIRC (retraite complémentaire) et à l'APEC (0,024%). Son taux de cotisation global est environ 0,5 point plus élevé qu'un non-cadre.</p></div>
+    <div class="faq-card"><h3>C'est quoi la prime d'activité ?</h3><p>Versée par la CAF aux travailleurs à faibles revenus. Elle peut atteindre plusieurs centaines d'euros/mois. Simulez officiellement sur caf.fr avec toutes vos ressources de foyer.</p></div>
+    <div class="faq-card"><h3>Fonctionnaire : comment ça marche ?</h3><p>Le fonctionnaire cotise à la CNRACL (9,14%), au RAFP (5%) et à la CSG/CRDS. Le taux global de cotisations est plus faible (~17%) que dans le privé.</p></div>
+    <div class="faq-card"><h3>Net imposable vs net à payer ?</h3><p>Le net imposable réintègre la CSG non déductible (2,4%). C'est la base déclarée aux impôts. Le net à payer est ce que vous recevez réellement chaque mois.</p></div>
+  </div>
+</section>
+
+<!-- TABLE -->
+<section class="table-section" id="taux">
+  <h2 class="section-title">Taux de cotisations <span>2024</span></h2>
+  <table class="rtable">
+    <thead><tr><th>Cotisation</th><th>Part salariale</th><th>Part patronale</th><th>Assiette</th></tr></thead>
+    <tbody>
+      <tr><td>Assurance maladie</td><td>0%</td><td>13%</td><td>Brut total</td></tr>
+      <tr><td>CSG déductible</td><td>6,80%</td><td>—</td><td>98,25% du brut</td></tr>
+      <tr><td>CSG/CRDS non déductible</td><td>2,90%</td><td>—</td><td>98,25% du brut</td></tr>
+      <tr><td>Retraite de base (plafonné)</td><td>6,90%</td><td>8,55%</td><td>≤ 1 PASS</td></tr>
+      <tr><td>Retraite de base (déplafonné)</td><td>0,40%</td><td>1,90%</td><td>Brut total</td></tr>
+      <tr><td>Retraite complémentaire T1</td><td>3,15%</td><td>4,72%</td><td>≤ 1 PASS</td></tr>
+      <tr><td>Retraite complémentaire T2</td><td>8,64%</td><td>12,95%</td><td>1 à 8 PASS</td></tr>
+      <tr><td>Assurance chômage</td><td>0%</td><td>4,05%</td><td>≤ 4 PASS</td></tr>
+      <tr><td>Allocations familiales</td><td>0%</td><td>3,45–5,25%</td><td>Brut total</td></tr>
+      <tr><td>Accident du travail</td><td>0%</td><td>~1,50% (variable)</td><td>Brut total</td></tr>
+      <tr><td>FNAL (aide logement)</td><td>0%</td><td>0,10%</td><td>Brut total</td></tr>
+      <tr><td>Solidarité autonomie (CSA)</td><td>0%</td><td>0,30%</td><td>Brut total</td></tr>
+      <tr><td>APEC (cadres uniquement)</td><td>0,024%</td><td>0,036%</td><td>≤ 4 PASS</td></tr>
+      <tr class="special"><td>CNRACL (fonctionnaires)</td><td>9,14%</td><td>30,65%</td><td>Traitement brut</td></tr>
+      <tr class="special"><td>RAFP (fonctionnaires)</td><td>5%</td><td>5%</td><td>20% du traitement</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<footer>
+  <strong>calculateursalaire.fr</strong> — Simulation à titre indicatif · Barèmes officiels 2024<br>
+  SMIC brut 2024 : 1 766,92 € · PASS mensuel : 3 864 € · SMIC horaire : 11,65 €<br>
+  Pour un calcul officiel : <a href="https://mon-entreprise.urssaf.fr" target="_blank" rel="noopener">mon-entreprise.urssaf.fr</a> · <a href="https://www.impots.gouv.fr" target="_blank" rel="noopener">impots.gouv.fr</a> · <a href="https://www.caf.fr" target="_blank" rel="noopener">caf.fr</a><br>
+  <span style="opacity:0.4;font-size:11px">Ce calculateur ne constitue pas un conseil fiscal ou juridique. Les résultats sont des estimations.</span>
+</footer>
+
+<script>
+// ===== CONSTANTS =====
+const PASS = 3864, SMIC_M = 1766.92, SMIC_H = 11.65;
+
+function fmt(n,d=2){return new Intl.NumberFormat('fr-FR',{minimumFractionDigits:d,maximumFractionDigits:d}).format(n)}
+function calcBase(b,p){
+  if(!p) return b;
+  if(Array.isArray(p)){const lo=p[0]*PASS,hi=p[1]*PASS;if(b<=lo)return 0;return Math.min(b,hi)-lo}
+  return Math.min(b,p*PASS);
+}
+
+// Cotisations salariales
+function cotisSal(brut, isCadre){
+  const items=[
+    {l:'CSG déductible',t:6.80,b:brut*0.9825},
+    {l:'CSG/CRDS non déductible',t:2.90,b:brut*0.9825},
+    {l:'Retraite base (plafonné)',t:6.90,b:calcBase(brut,1)},
+    {l:'Retraite base (déplafonné)',t:0.40,b:brut},
+    {l:'Retraite comp. T1',t:3.15,b:calcBase(brut,1)},
+    {l:'Retraite comp. T2',t:8.64,b:calcBase(brut,[1,8])},
+  ];
+  if(isCadre) items.push({l:'APEC (cadre)',t:0.024,b:calcBase(brut,4)});
+  let tot=0; const rows=items.map(i=>{const m=i.b*i.t/100;tot+=m;return{l:i.l,m}});
+  return{tot,rows};
+}
+
+// Cotisations patronales
+function cotisPat(brut, isCadre){
+  const items=[
+    {l:'Assurance maladie',t:13.00,b:brut},
+    {l:'Retraite base (plafonné)',t:8.55,b:calcBase(brut,1)},
+    {l:'Retraite base (déplafonné)',t:1.90,b:brut},
+    {l:'Retraite comp. T1',t:4.72,b:calcBase(brut,1)},
+    {l:'Retraite comp. T2',t:12.95,b:calcBase(brut,[1,8])},
+    {l:'Assurance chômage',t:4.05,b:calcBase(brut,4)},
+    {l:'Allocations familiales',t:3.45,b:brut},
+    {l:'Accident du travail (moy.)',t:1.50,b:brut},
+    {l:'FNAL',t:0.10,b:brut},
+    {l:'Solidarité autonomie',t:0.30,b:brut},
+  ];
+  if(isCadre) items.push({l:'APEC patronal',t:0.036,b:calcBase(brut,4)});
+  let tot=0; const rows=items.map(i=>{const m=i.b*i.t/100;tot+=m;return{l:i.l,m}});
+  return{tot,rows};
+}
+
+// IR
+const TR=[{a:0,b:11294,t:0},{a:11294,b:28797,t:.11},{a:28797,b:82341,t:.30},{a:82341,b:177106,t:.41},{a:177106,b:Infinity,t:.45}];
+function calcIR(nimAnn, parts){
+  const q=nimAnn/parts; let imp=0;
+  for(const t of TR){if(q<=t.a)continue; imp+=(Math.min(q,t.b)-t.a)*t.t;}
+  return imp*parts;
+}
+
+// Prime activité
+function primeActivite(net, nb){
+  const base=[0,635.71,764,829,893,958][Math.min(nb,5)];
+  const plaf=[0,1530,2320,2800,3130,3460][Math.min(nb,5)];
+  if(net>plaf) return 0;
+  const p = base + net*0.61 - net*0.8 - net*0.5;
+  return Math.max(0,Math.min(p,600));
+}
+
+// Fonctionnaire cotisations
+function cotisFonc(brut){
+  const items=[
+    {l:'CNRACL (retraite)',t:9.14,b:brut},
+    {l:'CSG déductible',t:6.80,b:brut*0.9825},
+    {l:'CSG/CRDS non déductible',t:2.90,b:brut*0.9825},
+    {l:'RAFP (retraite additionnelle)',t:5.00,b:brut*0.20},
+    {l:'Contribution solidarité',t:0.30,b:brut},
+  ];
+  let tot=0; const rows=items.map(i=>{const m=i.b*i.t/100;tot+=m;return{l:i.l,m}});
+  return{tot,rows};
+}
+
+// ===== RENDER =====
+function render(brut, cRes, pRes, irM, mut, period, nbP){
+  const netAvIR = brut - cRes.tot - mut;
+  const csgND   = brut * 0.9825 * 2.90/100;
+  const nimM    = netAvIR + csgND;
+  const netFin  = netAvIR - irM;
+  const mult    = period==='annuel'?12:1;
+  const pLbl    = period==='annuel'?'par an':'par mois';
+
+  document.getElementById('res_placeholder').style.display='none';
+  document.getElementById('res_main').style.display='block';
+
+  document.getElementById('r_net').textContent = fmt(netFin*mult);
+  document.getElementById('r_period').textContent = pLbl;
+  document.getElementById('r_annual').textContent = period==='mensuel'
+    ? `Annuel estimé : ${fmt(netFin*12)} €`
+    : `Soit ${fmt(netFin)} € / mois`;
+
+  const cpct = (cRes.tot/brut*100).toFixed(1);
+  const ipct = (irM/brut*100).toFixed(1);
+  const teff = ((cRes.tot+irM)/brut*100).toFixed(1);
+  document.getElementById('r_c_pct').textContent = cpct+'%';
+  document.getElementById('r_ir_pct').textContent = ipct+'%';
+  document.getElementById('r_tx_eff').textContent = teff+'%';
+
+  // --- DETAIL ---
+  const dd = document.getElementById('r_detail');
+  dd.innerHTML='';
+  const addR=(lbl,val,cls,type='')=>{
+    const d=document.createElement('div');
+    d.className='brow'+(type?' '+type:'');
+    if(type==='sec'){d.innerHTML=`<span>${lbl}</span>`;return dd.appendChild(d)}
+    const sign = cls==='vneg'?'− ':(cls==='vpos'?'+ ':'');
+    d.innerHTML=`<span>${lbl}</span><span class="${cls}">${sign}${fmt(Math.abs(val*mult))} €</span>`;
+    dd.appendChild(d);
+  };
+  addR('BRUT',0,'','sec');
+  addR('Salaire brut',brut,'vneu');
+  addR('COTISATIONS SALARIALES',0,'','sec');
+  cRes.rows.forEach(r=>addR(r.l,-r.m,'vneg'));
+  addR('Total cotisations',-cRes.tot,'vneg','sub');
+  if(mut>0){addR('DÉDUCTIONS',0,'','sec');addR('Mutuelle salarié',-mut,'vneg');}
+  addR('NET AVANT IMPÔT',0,'','sec');
+  addR('Net avant prélèvement',netAvIR,'vneu');
+  addR('Net imposable mensuel',nimM,'vneu');
+  addR('IMPÔT SUR LE REVENU',0,'','sec');
+  addR('Prélèvement à la source (estimé)',-irM,'vneg');
+  addR('NET À PAYER',netFin,'c-red','fin');
+
+  // --- VISUAL ---
+  const segs=[
+    {pct:netFin/brut,c:'#1e7e4e',l:'Net à payer'},
+    {pct:cRes.tot/brut,c:'#c0392b',l:'Cotisations salariales'},
+    {pct:irM/brut,c:'#1a5f9e',l:'Impôt (PAS)'},
+    ...(mut>0?[{pct:mut/brut,c:'#a8a49e',l:'Mutuelle'}]:[]),
+  ].filter(s=>s.pct>0.001);
+  drawDonut(segs, brut, netFin, mult);
+
+  const pg=document.getElementById('r_progs');
+  pg.innerHTML='';
+  [{l:'Net à payer',p:netFin/brut*100,c:'pf-net',v:netFin*mult},
+   {l:'Cotisations salariales',p:cRes.tot/brut*100,c:'pf-cotis',v:cRes.tot*mult},
+   {l:'Prélèvement à la source',p:irM/brut*100,c:'pf-ir',v:irM*mult},
+   ...(mut>0?[{l:'Mutuelle',p:mut/brut*100,c:'pf-mut',v:mut*mult}]:[])
+  ].forEach(x=>{
+    pg.innerHTML+=`<div class="prog-item">
+      <div class="prog-head"><span>${x.l}</span><span>${x.p.toFixed(1)}% — ${fmt(x.v)} €</span></div>
+      <div class="prog-track"><div class="prog-fill ${x.c}" style="width:0%" data-t="${x.p.toFixed(1)}%"></div></div>
+    </div>`;
+  });
+  setTimeout(()=>pg.querySelectorAll('.prog-fill').forEach(e=>e.style.width=e.dataset.t),80);
+
+  // --- EMPLOYEUR ---
+  const dp=document.getElementById('r_pat');
+  dp.innerHTML='';
+  const addP=(l,v,c)=>{
+    const d=document.createElement('div');d.className='brow';
+    d.innerHTML=`<span>${l}</span><span class="${c}">${fmt(v*mult)} €</span>`;dp.appendChild(d);
+  };
+  addP('Salaire brut',brut,'vneu');
+  pRes.rows.forEach(r=>addP('+ '+r.l,r.m,'vneg'));
+  document.getElementById('r_cout').textContent=fmt((brut+pRes.tot)*mult)+' €';
+
+  // --- PRIME ---
+  const prime=primeActivite(netAvIR,nbP);
+  const pc=document.getElementById('r_prime');
+  pc.innerHTML = prime>0 ? `
+    <div class="prime-box">
+      <div class="prime-head">🌿 Prime d'activité estimée</div>
+      <div class="prime-val">+ ${fmt(prime)} € / mois</div>
+      <div class="prime-sub">
+        Net + prime : <strong style="color:var(--green)">${fmt((netFin+prime)*mult)} € ${pLbl}</strong><br>
+        Simulation officielle : <a href="https://www.caf.fr" target="_blank" rel="noopener" style="color:var(--red);font-weight:700">caf.fr</a>
+      </div>
+    </div>` : `<div style="padding:20px;text-align:center;color:var(--gray-400);font-size:13px">
+      <div style="font-size:32px;margin-bottom:8px">📊</div>
+      Vos revenus dépassent les plafonds de la prime d'activité pour la composition de foyer indiquée.
+    </div>`;
+
+  const sc=document.getElementById('r_smic');
+  const ratio=(brut/SMIC_M);
+  const pct=Math.min(ratio/3*100,100);
+  const smicMarkPct=Math.min(100/3*100/100,100);
+  sc.innerHTML=`<div class="smic-box">
+    <div class="smic-hd">Position par rapport au SMIC</div>
+    <div style="font-size:13px;margin-bottom:6px;color:var(--gray-700)">
+      Votre brut : <strong>${fmt(brut)} €</strong> = <strong style="color:var(--red)">${ratio.toFixed(2)}× le SMIC</strong>
+    </div>
+    <div class="smic-bar-wrap">
+      <div class="smic-bar-fill" style="width:${pct}%"></div>
+      <div class="smic-bar-mark" style="left:${smicMarkPct}%"></div>
+    </div>
+    <div class="smic-lbls"><span>0</span><span>▲ SMIC ${fmt(SMIC_M,0)} €</span><span>3× SMIC</span></div>
+  </div>`;
+}
+
+// Donut
+function drawDonut(segs, brut, net, mult){
+  const cv=document.getElementById('donut'),ctx=cv.getContext('2d');
+  const cx=65,cy=65,r=54,ri=33;
+  ctx.clearRect(0,0,130,130);
+  let a=-Math.PI/2;
+  segs.forEach(s=>{
+    const sw=s.pct*2*Math.PI;
+    ctx.beginPath();ctx.moveTo(cx,cy);ctx.arc(cx,cy,r,a,a+sw);ctx.closePath();
+    ctx.fillStyle=s.c;ctx.fill();a+=sw;
+  });
+  ctx.beginPath();ctx.arc(cx,cy,ri,0,2*Math.PI);ctx.fillStyle='#ffffff';ctx.fill();
+  ctx.fillStyle='#1a1816';ctx.font='bold 13px Fraunces, serif';ctx.textAlign='center';
+  ctx.fillText(Math.round(net/brut*100)+'%',cx,cy+5);
+  ctx.fillStyle='#a8a49e';ctx.font='10px Mulish,sans-serif';ctx.fillText('net',cx,cy+17);
+
+  document.getElementById('dleg').innerHTML=segs.map(s=>`
+    <div class="dleg-item">
+      <div class="dleg-dot" style="background:${s.c}"></div>
+      <div>
+        <div class="dleg-lbl">${s.l}</div>
+        <div class="dleg-val">${fmt(s.pct*brut*mult)} €</div>
+        <div class="dleg-pct">${(s.pct*100).toFixed(1)}%</div>
+      </div>
+    </div>`).join('');
+}
+
+// ===== CALC FUNCTIONS =====
+function calcSalarie(){
+  let brut=parseFloat(document.getElementById('brut').value)||0;
+  const per=document.querySelector('input[name=per]:checked').value;
+  const stat=document.querySelector('input[name=stat]:checked').value;
+  const tps=document.querySelector('input[name=tps]:checked').value;
+  const tp=parseFloat(document.getElementById('taux_pt').value)/100;
+  const parts=parseFloat(document.getElementById('parts').value);
+  const prime=parseFloat(document.getElementById('prime').value)||0;
+  const mut=parseFloat(document.getElementById('mutuelle').value)||0;
+  const av=parseFloat(document.getElementById('avantage').value)||0;
+  const nb=parseInt(document.getElementById('foyer').value);
+  const isCadre=stat==='cadre';
+  if(per==='annuel') brut/=12;
+  if(tps==='partiel') brut*=tp;
+  brut+=prime+av;
+  const cRes=cotisSal(brut,isCadre);
+  const pRes=cotisPat(brut,isCadre);
+  const navir=brut-cRes.tot-mut;
+  const csgnd=brut*0.9825*2.90/100;
+  const irA=calcIR((navir+csgnd)*12*0.9,parts);
+  render(brut,cRes,pRes,irA/12,mut,per,nb);
+}
+
+function calcFonctionnaire(){
+  let brut=parseFloat(document.getElementById('brut_f').value)||0;
+  const per=document.querySelector('input[name=per_f]:checked').value;
+  const parts=parseFloat(document.getElementById('parts_f').value);
+  const nbi=parseFloat(document.getElementById('nbi_f').value)||0;
+  const indem=parseFloat(document.getElementById('indem_f').value)||0;
+  if(per==='annuel') brut/=12;
+  const total=brut+nbi+indem;
+  const cRes=cotisFonc(total);
+  const pRes={tot:total*0.3065,rows:[{l:'CNRACL part patronale',m:total*0.3065}]};
+  const navir=total-cRes.tot;
+  const csgnd=total*0.9825*2.90/100;
+  const irA=calcIR((navir+csgnd)*12*0.9,parts);
+  render(total,cRes,pRes,irA/12,0,per,1);
+}
+
+function calcSMIC(){
+  const h=parseFloat(document.getElementById('heures').value)||151.67;
+  const th=parseFloat(document.getElementById('taux_h').value)||11.65;
+  const hs=parseFloat(document.getElementById('h_sup').value)||0;
+  const maj=parseFloat(document.querySelector('input[name=maj]:checked').value);
+  const parts=parseFloat(document.getElementById('parts_s').value);
+  const isCadre=document.querySelector('input[name=stat_s]:checked').value==='cadre';
+  const brut=h*th+hs*th*maj;
+  const cRes=cotisSal(brut,isCadre);
+  const pRes=cotisPat(brut,isCadre);
+  const navir=brut-cRes.tot;
+  const csgnd=brut*0.9825*2.90/100;
+  const irA=calcIR((navir+csgnd)*12*0.9,parts);
+  render(brut,cRes,pRes,irA/12,0,'mensuel',1);
+}
+
+// ===== UI =====
+function switchForm(p,el){
+  document.querySelectorAll('.ftab').forEach(b=>b.classList.remove('active'));el.classList.add('active');
+  ['salarie','fonctionnaire','smic'].forEach(x=>document.getElementById('fp_'+x).classList.toggle('active',x===p));
+}
+function switchRes(t,el){
+  document.querySelectorAll('.rtab').forEach(b=>b.classList.remove('active'));el.classList.add('active');
+  ['detail','visual','employeur','prime'].forEach(x=>document.getElementById('rt_'+x).style.display=x===t?'block':'none');
+}
+
+// Partiel toggle
+document.querySelectorAll('input[name=tps]').forEach(el=>el.addEventListener('change',()=>{
+  document.getElementById('partiel_grp').style.display=document.querySelector('input[name=tps]:checked').value==='partiel'?'flex':'none';
+}));
+
+// Live recalc
+['brut','prime','mutuelle','avantage','taux_pt','parts','foyer'].forEach(id=>{
+  const el=document.getElementById(id);
+  if(el) el.addEventListener('input',()=>{if(document.getElementById('res_main').style.display!=='none')calcSalarie();});
+});
+document.querySelectorAll('input[name=per],input[name=stat],input[name=tps]').forEach(el=>el.addEventListener('change',calcSalarie));
+
+// Init
+window.addEventListener('load',calcSalarie);
+</script>
+</body>
+</html>
